@@ -13,7 +13,7 @@
 ### 👨‍💻 Hakkımda
 
 - 🚀 2022'den bu yana **Flutter** ile üretim ortamına çıkan mobil uygulamalar geliştiriyorum; App Store & Google Play'de canlıda birden fazla ürün.
-- 🔐 **Kimlik doğrulama (NFC / eMRTD)** alanında uzmanım — ICAO 9303 / BAC ile çip okuma, MRZ ayrıştırma, OCR ve canlılık (liveness) testi.
+- 🔐 **Kimlik doğrulama (NFC / eMRTD)** üzerine çalışıyorum — ICAO 9303 / BAC ile çip okuma, MRZ ayrıştırma, OCR ve canlılık (liveness) testi.
 - 📡 **Gerçek zamanlı sistemler**te rahatım: WebRTC, MQTT, Firebase ve native platform channels (iOS & Android).
 - 🛠️ Gerçek RC araçları uzaktan kontrol eden çok oyunculu platform **RCtrl+**'ın kurucusu ve geliştiricisiyim.
 - 🌱 Clean Architecture, ölçeklenebilir state management (Riverpod/BLoC) ve yeniden kullanılabilir SDK'lara odaklanıyorum.
