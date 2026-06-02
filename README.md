@@ -19,7 +19,7 @@
 - 🔐 **Kimlik doğrulama (NFC / eMRTD)** üzerine çalışıyorum — ICAO 9303 / BAC ile çip okuma, MRZ ayrıştırma, OCR ve canlılık (liveness) testi.
 - 📡 **Gerçek zamanlı sistemler**te rahatım: WebRTC, MQTT, Firebase ve native platform channels (iOS & Android).
 - 🛠️ Gerçek RC araçları uzaktan kontrol eden çok oyunculu platform **RCtrl+**'ın kurucusu ve geliştiricisiyim.
-- 🌱 Clean Architecture, ölçeklenebilir state management (Riverpod/BLoC) ve yeniden kullanılabilir SDK'lara odaklanıyorum.
+- 🌱 Clean Architecture, Riverpod ile ölçeklenebilir state management ve yeniden kullanılabilir SDK'lara odaklanıyorum.
 
 ### 🧰 Teknolojiler
 
