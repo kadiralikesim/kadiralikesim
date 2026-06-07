@@ -69,13 +69,6 @@ App Store & Google Play'de canlıda olan, geliştirdiğim uygulamalardan bazıla
 | 🧾 **Bursa SMMM Odası** | Oda üyelerine aidat ödeme, duyuru ve belge erişimi sağlayan resmi uygulama. | [App Store](https://apps.apple.com/tr/app/bursa-smmm-odasi/id6757802720) |
 | 💍 **İmza Altın Pırlanta** | Kuyumcuya özel müşteri uygulaması; dinamik fiyatlandırma ve kâr/zarar analizi. | [App Store](https://apps.apple.com/tr/app/i-mza-alt%C4%B1n-p%C4%B1rlanta/id6746325254) |
 
-### 📊 GitHub İstatistikleri
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kadiralikesim&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=0A66C2&icon_color=0A66C2" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=kadiralikesim&hide_border=true&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="GitHub Streak"/>
-</p>
-
 ### 📫 İletişim
 
 <p>
@@ -86,8 +79,3 @@ App Store & Google Play'de canlıda olan, geliştirdiğim uygulamalardan bazıla
     <img src="https://img.shields.io/badge/kadiralikesim@icloud.com-EA4335?style=flat-square&logo=maildotru&logoColor=white" alt="Email"/>
   </a>
 </p>
-
-<!--
-Not: Projelerinin çoğu private olduğu için istatistik kartlarının dolu görünmesi için
-GitHub → Settings → Profile → "Include private contributions on my profile" kutucuğunu işaretle.
--->
