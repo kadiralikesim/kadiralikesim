@@ -15,11 +15,11 @@
 
 ### 👨‍💻 Hakkımda
 
-- 🚀 2022'den bu yana **Flutter** ile üretim ortamına çıkan mobil uygulamalar geliştiriyorum; App Store & Google Play'de canlıda birden fazla ürün.
-- 🔐 **Kimlik doğrulama (NFC / eMRTD)** üzerine çalışıyorum — ICAO 9303 / BAC ile çip okuma, MRZ ayrıştırma, OCR ve canlılık (liveness) testi.
-- 📡 **Gerçek zamanlı sistemler**te rahatım: WebRTC, MQTT, Firebase ve native platform channels (iOS & Android).
-- 🛠️ Gerçek RC araçları uzaktan kontrol eden çok oyunculu platform **RCtrl+**'ın kurucusu ve geliştiricisiyim.
-- 🌱 Clean Architecture, Riverpod ile ölçeklenebilir state management ve yeniden kullanılabilir SDK'lara odaklanıyorum.
+- 🚀 2022'den bu yana **Flutter** ile iOS & Android uygulamaları geliştiriyorum; fikir aşamasından mağaza yayınına kadar uçtan uca sahipleniyorum — App Store & Google Play'de canlıda **birden fazla ürün**.
+- 🧱 **Clean Architecture** ve **Riverpod** ile büyüdükçe sürdürülebilir kalan, ölçeklenebilir kod tabanları kurmaya; karmaşık problemleri net, bakımı kolay çözümlere indirgemeye önem veririm.
+- 🔐 Standart UI'ın ötesine geçen alanlarda rahatım: **kimlik doğrulama (NFC / eMRTD)**, **gerçek zamanlı sistemler (WebRTC, MQTT)** ve **native platform channels** (iOS & Android).
+- 🛠️ Gerektiğinde **backend** (Go, PHP) ve **gömülü** (Raspberry Pi) tarafa da inerim — tek başıma full-stack ürün çıkarabilirim.
+- 🎮 Gerçek RC araçları uzaktan kontrol eden çok oyunculu platform **RCtrl+**'ın kurucusu ve geliştiricisiyim.
 
 ### 🧰 Teknolojiler
 
@@ -30,7 +30,13 @@
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase"/>
   <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift"/>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
 </p>
 <p>
   <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC"/>
@@ -45,10 +51,23 @@
 
 | Proje | Açıklama | Teknolojiler |
 |---|---|---|
-| 🪪 [**dmrtd**](https://github.com/kadiralikesim/dmrtd) | Biyometrik kimlik/pasaport çiplerini NFC ile okuyan Dart kütüphanesi (eMRTD) — KYC çalışmamın temeli. | `Dart` `NFC` `eMRTD` |
-| 🎮 **RCtrl+** *(kişisel girişim)* | Mobilden gerçek RC araçları uzaktan kontrol eden çok oyunculu platform. WebRTC ile canlı video, MQTT ile düşük gecikmeli kontrol. | `Flutter` `WebRTC` `MQTT` `Raspberry Pi` |
+| 🪪 [**dmrtd**](https://github.com/kadiralikesim/dmrtd) | Biyometrik kimlik/pasaport çiplerini NFC ile okuyan Dart kütüphanesi (eMRTD) — kimlik doğrulama çalışmamın temeli. | `Dart` `NFC` `eMRTD` |
+| 🎮 **RCtrl+** *(kişisel girişim)* | Mobilden gerçek RC araçları uzaktan kontrol eden çok oyunculu platform. WebRTC ile ~150–200 ms gecikmeli canlı video, MQTT ile düşük gecikmeli kontrol; Raspberry Pi + Python gömülü taraf. | `Flutter` `WebRTC` `MQTT` `Raspberry Pi` |
+| 💎 **MilyemFlow** *(kişisel girişim)* | Kuyumcular için mağaza, stok, personel ve cari yönetimini toplayan çok kiracılı (multi-tenant) mobil ERP. Flutter (iPhone/iPad ayrı UI) + Go (Fiber) & PostgreSQL backend. | `Flutter` `Go` `PostgreSQL` `Multi-tenant` |
 | 🔐 KYC SDK *(özel — CISoft)* | OCR + MRZ + NFC çip okuma + liveness'i tek pakette birleştiren, şirket içi kullanılan yeniden kullanılabilir Flutter SDK'sı. | `Flutter` `NFC` `ICAO 9303` `ML Kit` |
-| 📞 Caller360 *(özel — CISoft)* | Native platform kanallarıyla gerçek zamanlı çağrı yakalama ve çağrı kimliği altyapısı. | `Flutter` `Android` `Firestore` |
+
+### 📱 Yayınlanan Uygulamalar
+
+App Store & Google Play'de canlıda olan, geliştirdiğim uygulamalardan bazıları:
+
+| Uygulama | Açıklama | Mağaza |
+|---|---|---|
+| 🎵 **RTV Global** | Sanatçıların şarkılarını dünya genelinde radyo/TV'de gerçek zamanlı takip ettiği uygulama. | [App Store](https://apps.apple.com/tr/app/rtv-global/id6741587713) |
+| 🎶 **Sooly Music** | Sanatçı ve yapımcıların müziklerini dijital platformlara taşıyıp performansını izlediği platform. | [App Store](https://apps.apple.com/tr/app/sooly-music/id6739210355) |
+| 📻 **RTVTakip.com** | Seçilen şarkı radyo/TV/dijital yayında çalındığında anında bildirim gönderen takip uygulaması. | [App Store](https://apps.apple.com/tr/app/rtvtakip-com/id6716230959) |
+| 🚗 **Marmas** | Marmara Motorlu Araç Satıcıları Derneği üyelerine yönelik resmi dernek uygulaması. | [App Store](https://apps.apple.com/tr/app/marmas/id6758996327) |
+| 🧾 **Bursa SMMM Odası** | Oda üyelerine aidat ödeme, duyuru ve belge erişimi sağlayan resmi uygulama. | [App Store](https://apps.apple.com/tr/app/bursa-smmm-odasi/id6757802720) |
+| 💍 **İmza Altın Pırlanta** | Kuyumcuya özel müşteri uygulaması; dinamik fiyatlandırma ve kâr/zarar analizi. | [App Store](https://apps.apple.com/tr/app/i-mza-alt%C4%B1n-p%C4%B1rlanta/id6746325254) |
 
 ### 📊 GitHub İstatistikleri
 
